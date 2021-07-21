@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#212121">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="5dp"
+        android:elevation="5dp"
+        android:background="#">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal"
+            android:text="Breed"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:id="@+id/breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="270dp"
+            android:layout_marginBottom="20dp"/>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
