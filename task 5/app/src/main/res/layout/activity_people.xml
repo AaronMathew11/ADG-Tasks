@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:padding="20dp"
     tools:context=".people">
 
@@ -12,149 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="People"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="30sp"/>
-
     <RelativeLayout
+        android:layout_marginTop="60dp"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:layout_marginTop="40dp"
-        >
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#E8E8E8"
-            android:elevation="40dp"
-            android:layout_marginTop="80dp"
-            android:layout_gravity="center"
-            app:cardCornerRadius="20dp"
-            android:padding="16dp"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp"
-                android:gravity="center">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Jack Daniel"
-                        android:textSize="17dp"
-                        android:textColor="@color/black"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Director, Cinematographer"
-                        android:textSize="10dp"
-                        android:textColor="@color/black"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.33333"
-                        android:orientation="vertical"
-                        android:layout_marginTop="30dp"
-                        android:gravity="center_horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/black"
-                            android:text="Followers"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="12.6 K"
-                            android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@color/black"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.33333"
-                        android:layout_marginTop="30dp"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="50dp"
-                        android:gravity="center_horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/black"
-                            android:text="Followers"
-                          />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="12.6 K"
-                            android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@color/black"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.33333"
-                        android:orientation="vertical"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginLeft="50dp"
-                        android:gravity="center_horizontal">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/black"
-                            android:text="Following"
-                          />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="12.6 K"
-                            android:textSize="25sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:textColor="@color/black"/>
-                    </LinearLayout>
-
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-
-
-    </androidx.cardview.widget.CardView>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ppl1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="-10dp"/>
-
-    </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         >
 
         <androidx.cardview.widget.CardView
@@ -173,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="20dp"
+                android:layout_marginTop="40dp"
                 android:gravity="center">
 
                 <LinearLayout
@@ -186,6 +52,7 @@
                         android:layout_height="wrap_content"
                         android:text="Jack Daniel"
                         android:textSize="17dp"
+                        android:textStyle="bold"
                         android:textColor="@color/black"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -218,8 +85,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="12.6 K"
-                            android:textSize="25sp"
+                            android:text="12.6K"
+                            android:textSize="20sp"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:textColor="@color/black"/>
@@ -241,8 +108,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="12.6 K"
-                            android:textSize="25sp"
+                            android:text="330"
+                            android:textSize="20sp"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
                             android:textColor="@color/black"/>
@@ -264,7 +131,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="12.6 K"
+                            android:text="1211"
                             android:textSize="25sp"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
@@ -276,30 +143,170 @@
                 </LinearLayout>
 
 
+
             </LinearLayout>
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:src="@drawable/ppl2"
-                android:layout_width="140dp"
-                android:layout_height="180dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="104dp"
-                android:layout_marginTop="-140dp"
-            />
 
         </androidx.cardview.widget.CardView>
 
 
 
     </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/ppl1"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
 
-    <TextView
+        android:layout_marginTop="-310dp"
+        />
+
+
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="back"
-        android:layout_marginTop="-20dp"
-        android:textColor="@color/white"
-        android:onClick="back"/>
+        android:layout_height="250dp"
+        android:layout_marginTop="180dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E8E8E8"
+            android:elevation="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20dp"
+            android:padding="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="John Walker"
+                        android:textSize="17dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Photographer, Artist"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33333"
+                        android:orientation="vertical"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center_horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Followers"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="128.6K"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33333"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center_horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Followers"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33333"
+                        android:orientation="vertical"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="center_horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Following"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="90"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/ppl2"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="-310dp"
+        />
+
+
+
 
 </LinearLayout>
