@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:padding="20dp"
     tools:context=".options">
 
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Options"
+        android:textColor="@color/black"
         android:layout_marginTop="30dp"
         android:textSize="30dp"
         />
@@ -22,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Important"
+        android:textColor="@color/black"
         android:layout_marginTop="30dp"
         />
     <LinearLayout
@@ -42,6 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
             android:text="Degree"
+            android:textColor="@color/black"
             android:textSize="17dp"
             />
         <ImageButton
@@ -71,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
             android:text="Assignments"
+            android:textColor="@color/black"
             android:textSize="17dp"
             />
         <ImageButton
@@ -99,6 +104,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
+            android:textColor="@color/black"
             android:text="Photos"
             android:textSize="17dp"
             />
@@ -118,6 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Files"
+        android:textColor="@color/black"
         android:layout_marginTop="30dp"
         />
     <LinearLayout
@@ -137,6 +144,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
+            android:textColor="@color/black"
             android:text="Png Images"
             android:textSize="17dp"
             />
@@ -167,6 +175,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
             android:text="Jpg Images"
+            android:textColor="@color/black"
             android:textSize="17dp"
             />
         <ImageButton
@@ -195,6 +204,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Word Doc"
+            android:textColor="@color/black"
           android:layout_weight="0.8"
             android:textSize="17dp"
             />
@@ -224,6 +234,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
+            android:textColor="@color/black"
             android:text="Pdf docs"
 
             android:textSize="17dp"
@@ -245,6 +256,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Others"
+        android:textColor="@color/black"
         android:layout_marginTop="30dp"
         />
     <LinearLayout
@@ -263,6 +275,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:layout_weight="0.9"
             android:text="Other Settings"
 
@@ -276,9 +289,17 @@
             android:rotationY="180"
             android:background="?attr/selectableItemBackgroundBorderless"/>
 
+
     </LinearLayout>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="back"/>
 
 
 

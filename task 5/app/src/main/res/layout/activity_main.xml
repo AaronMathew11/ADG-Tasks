@@ -18,6 +18,7 @@
         android:layout_gravity="top"/>
 
     <TextView
+        android:onClick="stageone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -31,6 +32,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:onClick="stagetwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -39,11 +41,12 @@
         android:background="@drawable/round_box"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Stage 1"
+        android:text="Stage 2"
         android:textColor="#193381"
         android:textStyle="bold" />
 
     <TextView
+        android:onClick="stagethree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -52,7 +55,7 @@
         android:background="@drawable/round_box"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Stage 1"
+        android:text="Stage 3"
         android:textColor="#193381"
         android:textStyle="bold" />
 
